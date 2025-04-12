@@ -6,7 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 function getRandomElement(array){
-    return array[Math.floor(Math.random()*4)];
+    return array[Math.floor(Math.random()*array.length)];
 }
 
 
